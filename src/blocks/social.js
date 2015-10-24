@@ -11,7 +11,7 @@ module.exports = Block.extend({
 
   type: 'Social',
 
-  title: function(){ return 'Соц. кнопки'; },
+  title: function(){ return i18n.t('blocks:social:title'); },
 
   editorHTML: [
     '<div class="st-block__inputs st-block__dropzone">',

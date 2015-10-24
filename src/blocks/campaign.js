@@ -11,7 +11,7 @@ module.exports = Block.extend({
 
   type: 'Campaign',
 
-  title: function(){ return 'Компания'; },
+  title: function(){ return i18n.t('blocks:сampaign:title'); },
 
   editorHTML: [
     '<div class="st-block__inputs st-block__dropzone">',

@@ -12,10 +12,10 @@ SirTrevor.Locales.ru = {
   errors: {
     'title': "У вас есть следующие ошибки:",
     'validation_fail': "__type__ блок является недопустимым",
-    'block_empty': "__name__ не должно быть пустым",
-    'type_missing': "Вы должны иметь блок типа __type__",
-    'required_type_empty': "Нужный тип блока __type__ пуст",
-    'load_fail': "Есть проблема при загрузке содержимого документа"
+    'block_empty': "Блок содержащий '__name__' не должен быть пустым",
+    'type_missing': "На вашей странице должен находится блок типа '__type__'",
+    'required_type_empty': "Блок '__type__' должен быть пустым",
+    'load_fail': "Ошибка при загрузке содержимого документа"
   },
   blocks: {
     text: {
@@ -26,23 +26,29 @@ SirTrevor.Locales.ru = {
     },
     quote: {
       'title': "Цитата",
-      'credit_field': "Слова"
+      'credit_field': "Автор"
+    },
+    social: {
+      'title': "Соц. кнопки"
+    },
+    campaign: {
+      'title': "Компания"
     },
     image: {
       'title': "Изображение",
-      'upload_error': "Есть проблемы с загрузкой"
+      'upload_error': "Ошибка загрузки"
     },
     video: {
       'title': "Видео"
     },
     tweet: {
       'title': "Твит",
-      'fetch_error': "Есть проблемы с загрузкой"
+      'fetch_error': "Ошибка загрузки"
     },
     embedly: {
       'title': "Вставка",
-      'fetch_error': "Есть проблемы с вставлением",
-      'key_missing': "API должен присутствовать"
+      'fetch_error': "Ошибка вставки",
+      'key_missing': "Проверьте API-ключ"
     },
     heading: {
       'title': 'Заголовок'
